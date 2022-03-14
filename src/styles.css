@@ -514,7 +514,7 @@ input.au-input.au-input-xl{
     background:#fff
 }
 .main-content.page-m{
-    padding:10% 15%!important
+    padding: 10% 30% 10% 5%
 }
 
 /* 
@@ -680,7 +680,9 @@ select{
  */
 
 .table{
-    margin:0
+    margin: 100px;
+    margin-right: 100px;
+    margin-left: 0;
 }
 table.table.table-bordered{
     border:1px solid #ccc;
@@ -719,9 +721,15 @@ table.table.table-bordered th{
     font-weight:800;
     color:#0da8e4
 }
+
 .detail-section{
     margin-top:60px
 }
+
+.detail-img{
+    width: 30%;
+}
+
 /**/
 
 /* 
@@ -740,7 +748,7 @@ a.primary-btn{
     padding:7px 20px;
     text-align:center;
     display:inline-block;
-    color:#fff;
+    color:rgb(255, 255, 255);
     border-radius:2px;
     font-size:14px;
     margin-top:5px
